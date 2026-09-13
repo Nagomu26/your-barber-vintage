@@ -254,7 +254,7 @@ export function Booking({ onOpenLegal }: { onOpenLegal: (docId: LegalDocId) => v
                       onClick={() => seleccionarDia(dia)}
                       aria-pressed={activo}
                       className={cn(
-                        "day-option flex w-16 flex-shrink-0 cursor-pointer rounded-md border-2 border-crema/25 bg-crema py-3 text-center transition-all duration-200",
+                        "day-option flex flex-col w-16 flex-shrink-0 cursor-pointer rounded-md border-2 border-crema/25 bg-crema py-3 text-center transition-all duration-200",
                         "hover:-translate-y-0.5 hover:border-mostaza",
                         activo && "seleccionado",
                       )}
