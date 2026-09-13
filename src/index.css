@@ -122,7 +122,7 @@
       #f1e7ce 40px 54px
     );
     background-size: 100% 400%;
-    animation: pole-move 9s linear infinite;
+    animation: pole-move 20s linear infinite;
   }
   @keyframes pole-move {
     from {
