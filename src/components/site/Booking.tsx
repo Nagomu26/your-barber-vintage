@@ -240,7 +240,7 @@ export function Booking({ onOpenLegal }: { onOpenLegal: (docId: LegalDocId) => v
           <Reveal>
             <Paso numero={1} titulo="Elige el día">
               <div
-                className="flex gap-3 overflow-x-auto px-1 pb-2"
+                className="flex flex-wrap justify-center gap-3"
                 role="listbox"
                 aria-label="Selecciona un día"
               >
